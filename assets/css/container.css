@@ -1,0 +1,5 @@
+main.container {
+  background-color: var(--dark-desatured-blue);
+  border-radius: 8px;
+  overflow: hidden;
+}

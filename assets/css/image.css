@@ -1,0 +1,21 @@
+div.image-container {
+  position: relative;
+  display: inline-block;
+
+  img {
+    max-width: 100%;
+    display: block;
+    filter: opacity(50%);
+  }
+
+  div.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--soft-violet);
+    mix-blend-mode: color;
+    pointer-events: none;
+  }
+}
