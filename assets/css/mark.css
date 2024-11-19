@@ -1,0 +1,5 @@
+div.marks {
+  display: flex;
+  flex-direction: column;
+  
+}

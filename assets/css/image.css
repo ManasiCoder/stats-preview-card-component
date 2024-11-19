@@ -1,21 +1,18 @@
-div.image-container {
-  position: relative;
-  display: inline-block;
+img.desktop {
+  display: none;
+  border-radius: 0 var(--eight-px) var(--eight-px) 0;
+}
 
-  img {
-    max-width: 100%;
+img.mobile {
+  border-radius: var(--eight-px) var(--eight-px) 0 0;
+}
+
+@media screen and (min-width: 768px) {
+  img.desktop {
     display: block;
-    filter: opacity(50%);
   }
 
-  div.color-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--soft-violet);
-    mix-blend-mode: color;
-    pointer-events: none;
+  img.mobile {
+    display: none;
   }
 }

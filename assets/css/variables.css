@@ -9,4 +9,7 @@
   --slightly-transparent-white-one: hsla(0, 0%, 100%, 0.75);
   --slightly-transparent-white-two: hsla(0, 0%, 100%, 0.6);
 
+  /* Sizes */
+
+  --eight-px: 8px;
 }
