@@ -8,7 +8,7 @@ section.content {
 
   div.description {
     display: grid;
-    gap: 4rem;
+    gap: 3rem;
 
     h1 {
       font-size: 2.6rem;
@@ -33,11 +33,21 @@ section.content {
 
     div.description { 
       h1 {
-        font-size: 4rem;
+        font-size: 3.2rem;
       }
 
       p {
         max-width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  section.content {
+    div.description { 
+      h1 {
+        font-size: 4rem;
       }
     }
   }
