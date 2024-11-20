@@ -2,12 +2,13 @@ section.content {
   padding: 3.2rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 4rem;
   text-align: center;
 
   div.description {
     display: grid;
-    gap: 2rem;
+    gap: 4rem;
 
     h1 {
       font-size: 2.6rem;
@@ -26,7 +27,7 @@ section.content {
 
 @media screen and (min-width: 1024px) {
   section.content {
-    padding: 6rem 16.32rem 6rem 6rem;
+    padding: 6rem 14rem 6rem 6rem;
     text-align: start;
     gap: 6rem;
 
@@ -42,12 +43,3 @@ section.content {
   }
 }
 
-@media screen and (min-width: 1280px) {
-  section.content {
-    div.description { 
-      h1 {
-        font-size: 5rem;
-      }
-    }
-  }
-}
