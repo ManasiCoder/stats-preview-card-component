@@ -23,7 +23,7 @@ div.marks {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   div.marks {
     flex-direction: row;
     justify-content: space-between;

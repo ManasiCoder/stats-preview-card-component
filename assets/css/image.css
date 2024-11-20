@@ -4,10 +4,26 @@ img.desktop {
 }
 
 img.mobile {
+  max-width: 100%;
   border-radius: var(--eight-px) var(--eight-px) 0 0;
 }
 
-@media screen and (min-width: 768px) {
+.image-container-mobile,
+.image-container-desktop {
+  position: relative;
+
+  div.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--soft-violet);
+    mix-blend-mode: multiply;
+  }
+}
+
+@media screen and (min-width: 1024px) {
   img.desktop {
     display: block;
   }

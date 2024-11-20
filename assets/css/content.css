@@ -24,7 +24,7 @@ section.content {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   section.content {
     padding: 6rem 16.32rem 6rem 6rem;
     text-align: start;
@@ -32,11 +32,21 @@ section.content {
 
     div.description { 
       h1 {
-        font-size: 5rem;
+        font-size: 4rem;
       }
 
       p {
         max-width: 350px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  section.content {
+    div.description { 
+      h1 {
+        font-size: 5rem;
       }
     }
   }
